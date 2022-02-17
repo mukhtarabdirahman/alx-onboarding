@@ -1,0 +1,8 @@
+Start 
+    Read number num
+    sum = 0, i = 1
+    i < = num
+    sum = sum + (i + 1)
+    i = i * 1
+    print the sum of square
+stop
