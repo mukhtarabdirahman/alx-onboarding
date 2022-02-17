@@ -1,0 +1,13 @@
+total = o 
+another_number_to_add = True 
+while_another_number_to_add == True
+    number = int(input('Enter a number: '))
+    total = total + number 
+
+    answer = input('want to add a number?')
+    if answer == 'y':
+        another_number_to_add = True
+    else:
+        another_number_to_add = False
+
+print(total)
