@@ -1,0 +1,10 @@
+start
+    1, 2 and 3. 
+    c READ(*,*) 
+    a, b, c IF (a < b) 
+    THEN ! a < b here 
+    IF (a < c) THEN ! a < c : a the smallest 
+    IF (b < c) THEN ! b < c : a < b < c 
+    WRITE(*,*) a, b, c 
+    ELSE This is a good example for using the box trick.
+stop
